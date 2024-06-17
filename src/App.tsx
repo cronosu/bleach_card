@@ -1,0 +1,761 @@
+import Card from "./component/Card";
+
+
+export default function App() {
+
+
+  return (
+    <>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 10 } as React.CSSProperties}>
+          <Card
+            src="/1.ichigo_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/1.ichigo_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/1.ichigo_3.jpg"
+            position={3}
+          />
+          <Card
+            src="/1.ichigo_4.jpg"
+            position={4}
+          />
+          <Card
+            src="/1.ichigo_5.jpg"
+            position={5}
+          />
+          <Card
+            src="/1.ichigo_6.jpg"
+            position={6}
+          />
+          <Card
+            src="/1.ichigo_6.1.jpg"
+            position={7}
+          />
+          <Card
+            src="/1.ichigo_7.jpg"
+            position={8}
+          />
+          <Card
+            src="/1.ichigo_8.jpg"
+            position={9}
+          />
+          <Card
+            src="/1.ichigo_8.1.jpg"
+            position={10}
+          />
+
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 10 } as React.CSSProperties}>
+          <Card
+            src="/2.inoue_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/2.inoue_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/2.inoue_3.jpg"
+            position={3}
+          />
+          <Card
+            src="/2.inoue_4.jpg"
+            position={4}
+          />
+          <Card
+            src="/3.ishida_1.jpg"
+            position={5}
+          />
+          <Card
+            src="/3.ishida_2.jpg"
+            position={6}
+          />
+          <Card
+            src="/3.ishida_3.jpg"
+            position={7}
+          />
+          <Card
+            src="/3.ishida_4.jpg"
+            position={8}
+          />
+          <Card
+            src="/3.ishida_4.1.jpg"
+            position={9}
+          />
+          <Card
+            src="/3.ishida_5.jpg"
+            position={10}
+          />
+
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 10 } as React.CSSProperties}>
+          <Card
+            src="/4.isshin_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/4.isshin_2.jpg"
+            position={2}
+          />
+          <Card
+            src="4.isshin_3.jpg"
+            position={3}
+          />
+          <Card
+            src="/5.rukia_1.jpg"
+            position={4}
+          />
+          <Card
+            src="/5.rukia_2.jpg"
+            position={5}
+          />
+          <Card
+            src="/5.rukia_2.1.jpg"
+            position={6}
+          />
+          <Card
+            src="/5.rukia_4.jpg"
+            position={7}
+          />
+          <Card
+            src="/5.rukia_5.jpg"
+            position={8}
+          />
+          <Card
+            src="/5.rukia_6.jpg"
+            position={9}
+          />
+          <Card
+            src="/5.rukia_7.jpg"
+            position={10}
+          />
+
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 10 } as React.CSSProperties}>
+          <Card
+            src="/2.inoue_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/2.inoue_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/2.inoue_3.jpg"
+            position={3}
+          />
+          <Card
+            src="/2.inoue_4.jpg"
+            position={4}
+          />
+          <Card
+            src="/3.ishida_1.jpg"
+            position={5}
+          />
+          <Card
+            src="/3.ishida_2.jpg"
+            position={6}
+          />
+          <Card
+            src="/3.ishida_3.jpg"
+            position={7}
+          />
+          <Card
+            src="/3.ishida_4.jpg"
+            position={8}
+          />
+          <Card
+            src="/3.ishida_4.1.jpg"
+            position={9}
+          />
+          <Card
+            src="/3.ishida_5.jpg"
+            position={10}
+          />
+
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 12 } as React.CSSProperties}>
+          <Card
+            src="/5.rukia_8.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/6.sado_1.jpg"
+            position={2}
+          />
+          <Card
+            src="/6.sado_2.jpg"
+            position={3}
+          />
+          <Card
+            src="/6.sado_3.jpg"
+            position={4}
+          />
+          <Card
+            src="/6.sado_4.jpg"
+            position={5}
+          />
+          <Card
+            src="/6.sado_5.jpg"
+            position={6}
+          />
+          <Card
+            src="/7.nell_1.jpg"
+            position={7}
+          />
+          <Card
+            src="/7.nell_2.jpg"
+            position={8}
+          />
+          <Card
+            src="/7.nell_3.jpg"
+            position={9}
+          />
+          <Card
+            src="/8.Dondochakka_Bilstin_1.jpg"
+            position={10}
+          />
+          <Card
+            src="/9.Pesche_Guatiche_1.jpg"
+            position={11}
+          />
+          <Card
+            src="/10.Tatsuki.jpg"
+            position={12}
+          />
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 6 } as React.CSSProperties}>
+          <Card
+            src="/jinta.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/uruu.jpg"
+            position={2}
+          />
+          <Card
+            src="/tessai.jpg"
+            position={3}
+          />
+          <Card
+            src="/urahara.jpg"
+            position={4}
+          />
+          <Card
+            src="/urahara2.jpg"
+            position={5}
+          />
+          <Card
+            src="/urahara3.jpg"
+            position={6}
+          />
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 13 } as React.CSSProperties}>
+          <Card
+            src="/4.vitesse_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/4.vitesse_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/4.vitesse_3.jpg"
+            position={3}
+          />
+          <Card
+            src="/2.force_1.jpg"
+            position={4}
+          />
+          <Card
+            src="/2.force_2.jpg"
+            position={5}
+          />
+          <Card
+            src="/2.force_3.jpg"
+            position={6}
+          />
+          <Card
+            src="/2.force_3.1.jpg"
+            position={7}
+          />
+          <Card
+            src="/3.reiatsu_1.jpg"
+            position={8}
+          />
+          <Card
+            src="/3.reiatsu_2.jpg"
+            position={9}
+          />
+          <Card
+            src="/3.reiatsu_3.jpg"
+            position={10}
+          />
+          <Card
+            src="/1.1blessures partiel.jpg"
+            position={11}
+          />
+          <Card
+            src="/1.2blessures.jpg"
+            position={12}
+          />
+          <Card
+            src="/1.3blessures grave.jpg"
+            position={13}
+          />
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 10 } as React.CSSProperties}>
+          <Card
+            src="/0.Tōshirō_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/1.Tōshirō_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/1.Toshiro_3.jpg"
+            position={3}
+          />
+          <Card
+            src="/2.mayuri_1.jpg"
+            position={4}
+          />
+          <Card
+            src="/2.mayuri_2.jpg"
+            position={5}
+          />
+          <Card
+            src="/2.mayuri_3.jpg"
+            position={6}
+          />
+          <Card
+            src="/3.renji_1.jpg"
+            position={7}
+          />
+          <Card
+            src="/3.renji_2.jpg"
+            position={8}
+          />
+          <Card
+            src="/3.renji_3.jpg"
+            position={9}
+          />
+          <Card
+            src="/3.renji_4.jpg"
+            position={10}
+          />
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 12 } as React.CSSProperties}>
+          <Card
+            src="/4.ikkaku_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/4.ikkaku_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/4.ikkaku_3.jpg"
+            position={3}
+          />
+          <Card
+            src="/4.ikkaku_4.jpg"
+            position={4}
+          />
+          <Card
+            src="/4.ukitake_1.jpg"
+            position={5}
+          />
+          <Card
+            src="/4.ukitake_2.jpg"
+            position={6}
+          />
+          <Card
+            src="/5.byakuya_1.jpg"
+            position={7}
+          />
+          <Card
+            src="/5.byakuya_2.jpg"
+            position={8}
+          />
+          <Card
+            src="/5.byakuya_3.jpg"
+            position={9}
+          />
+          <Card
+            src="/5.byakuya_4.jpg"
+            position={10}
+          />
+          <Card
+            src="/5.byakuya_5.jpg"
+            position={11}
+          />
+          <Card
+            src="/5.byakuya_6.jpg"
+            position={12}
+          />
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 12 } as React.CSSProperties}>
+          <Card
+            src="/6.chojiro_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/6.chojiro_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/7.yumichika_1.jpg"
+            position={3}
+          />
+          <Card
+            src="/7.yumichika_2.jpg"
+            position={4}
+          />
+          <Card
+            src="/7.yumichika_3.jpg"
+            position={5}
+          />
+          <Card
+            src="/8.rangiku_1.jpg"
+            position={6}
+          />
+          <Card
+            src="/8.rangiku_2.jpg"
+            position={7}
+          />
+          <Card
+            src="/9.isane_1.jpg"
+            position={8}
+          />
+          <Card
+            src="/9.isane_2.jpg"
+            position={9}
+          />
+          <Card
+            src="/10.shunsui_1.jpg"
+            position={10}
+          />
+          <Card
+            src="/10.shunsui_2.jpg"
+            position={11}
+          />
+          <Card
+            src="/10.shunsui_3.jpg"
+            position={12}
+          />
+
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 11 } as React.CSSProperties}>
+          <Card
+            src="/11.kira_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/11.kira_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/12.jirobo_1.jpg"
+            position={3}
+          />
+          <Card
+            src="/12.jirobo_2.jpg"
+            position={4}
+          />
+          <Card
+            src="/14.zaraki_1.jpg"
+            position={5}
+          />
+          <Card
+            src="/14.zaraki_2.jpg"
+            position={6}
+          />
+          <Card
+            src="/14.zaraki_3.jpg"
+            position={7}
+          />
+          <Card
+            src="/15.makizō_1.jpg"
+            position={8}
+          />
+          <Card
+            src="/16.omaeda_1.jpg"
+            position={9}
+          />
+          <Card
+            src="/16.omaeda_2.jpg"
+            position={10}
+          />
+          <Card
+            src="/17.nanao_1.jpg"
+            position={11}
+          />
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 10 } as React.CSSProperties}>
+          <Card
+            src="/18.hinamori_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/18.hinamori_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/18.hinamori_3.jpg"
+            position={3}
+          />
+          <Card
+            src="/19.unohana_1.jpg"
+            position={4}
+          />
+          <Card
+            src="/19.unohana_2.jpg"
+            position={5}
+          />
+          <Card
+            src="/20.komamura_1.jpg"
+            position={6}
+          />
+          <Card
+            src="/20.komamura_2.jpg"
+            position={7}
+          />
+          <Card
+            src="/20.komamura_3.jpg"
+            position={8}
+          />
+          <Card
+            src="/21.hisagi_1.jpg"
+            position={9}
+          />
+          <Card
+            src="/21.hisagi_2.jpg"
+            position={10}
+          />
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 12 } as React.CSSProperties}>
+          <Card
+            src="/23.soi_fong_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/23.soi_fong_2.jpg"
+            position={2}
+          />
+          <Card
+            src="/23.soi_fong_3.jpg"
+            position={3}
+          />
+          <Card
+            src="/24.Tatsufusa_1.jpg"
+            position={4}
+          />
+          <Card
+            src="/25.yachiru_1.jpg"
+            position={5}
+          />
+          <Card
+            src="/26.yamamoto_1.jpg"
+            position={6}
+          />
+          <Card
+            src="/26.yamamoto_2.jpg"
+            position={7}
+          />
+          <Card
+            src="/27.yoruichi_1.jpg"
+            position={8}
+          />
+          <Card
+            src="/27.yoruichi_2.jpg"
+            position={9}
+          />
+          <Card
+            src="/27.yoruichi_3.jpg"
+            position={10}
+          />
+          <Card
+            src="/27.yoruichi_3.1.jpg"
+            position={11}
+          />
+          <Card
+            src="/27.yoruichi_4.jpg"
+            position={12}
+          />
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 10 } as React.CSSProperties}>
+          <Card
+            src="/28.nemu_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/29.Ryūken_Ishida_1.jpg"
+            position={2}
+          />
+          <Card
+            src="/30.Aizen_Sosuke_1.jpg"
+            position={3}
+          />
+          <Card
+            src="/31.Ichimaru_Gin_1.jpg"
+            position={4}
+          />
+          <Card
+            src="/32.Kaname_Tosen_1.jpg"
+            position={5}
+          />
+          <Card
+            src="/33_Tetsuzaemon_Iba_1.jpg"
+            position={6}
+          />
+          <Card
+            src="/33_Tetsuzaemon_Iba_2.jpg"
+            position={7}
+          />
+          <Card
+            src="/33_Tetsuzaemon_Iba_3.jpg"
+            position={8}
+          />
+          <Card
+            src="/34_Hanatarō Yamada_1.jpg"
+            position={9}
+          />
+          <Card
+            src="/35_Ashido Kanô_1.jpg"
+            position={10}
+          />
+        </div>
+      </div>
+      <div className="banner">
+        <div className="slider" style={{ '--quantity': 16 } as React.CSSProperties}>
+          <Card
+            src="/28.nemu_1.jpg"
+            position={1}
+
+          />
+          <Card
+            src="/akon.jpg"
+            position={2}
+          />
+          <Card
+            src="/bawabawa.jpg"
+            position={3}
+          />
+          <Card
+            src="/Don_Kanonji.jpg"
+            position={4}
+          />
+          <Card
+            src="/ganju.jpg"
+            position={5}
+          />
+          <Card
+            src="/hiyosu.jpg"
+            position={6}
+          />
+          <Card
+            src="/karin.jpg"
+            position={7}
+          />
+          <Card
+            src="/Koganehiko_et_Shiroganehiko.jpg"
+            position={8}
+          />
+          <Card
+            src="/kon.jpg"
+            position={9}
+          />
+          <Card
+            src="/Kûkaku_shiba.jpg"
+            position={10}
+          />
+          <Card
+            src="/Monde_intérieur.jpg"
+            position={11}
+          />
+          <Card
+            src="/Rin_Tsubokura.jpg"
+            position={12}
+          />
+          <Card
+            src="/sentaro_et_kiyone.jpg"
+            position={13}
+          />      
+           <Card
+            src="/Shiro_Ichigo.jpg"
+            position={14}
+          />
+          <Card
+            src="/Yuichi_Shibata.jpg"
+            position={15}
+          />
+          <Card
+            src="/yuzu.jpg"
+            position={16}
+
+          />
+        </div>
+      </div>
+    </>
+  )
+}
+
+
+
+
